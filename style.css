@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    z-index: 999;
+}
+nav .logo{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imag.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav-links{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links a:hover{
+    color:blueviolet;
+}
+.login-button{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #9933ff;
+    transition: background-color 0.3s ease;
+}
+.login-button:hover{
+    background-color: #7f00ff;
+}
+.hero-content {
+    text-align: center;
+}
+.hero-content h1{
+    color:#fff;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    color:#fff;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.hero-content .button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #9933ff;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;   
+    transition: background-color 0.3s ease;
+}
+.hero-content .button:hover{
+    background-color: #7f00ff;
+}
